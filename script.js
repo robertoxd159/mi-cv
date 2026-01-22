@@ -87,6 +87,21 @@ document.addEventListener('DOMContentLoaded', () => {
             { src: "img/51.png", caption: "Selección de plato y detalles" },
             { src: "img/52.png", caption: "Confirmación de pedido exitoso" }
         ],
+        "restobar_qr_moderno": [
+            { src: "img/53.png", caption: "Acceso restringido (Requiere escaneo de QR)" },
+            { src: "img/54.png", caption: "Carta digital con buscador y filtrado" },
+            { src: "img/55.png", caption: "Registro de cliente y selección (Visualización de stock agotado)" },
+            { src: "img/56.png", caption: "Confirmación de pedido registrado exitosamente" },
+            { src: "img/57.png", caption: "Acceso de personal mediante código de seguridad" },
+            { src: "img/58.png", caption: "Panel Mozo: Gestión de pedidos y notificaciones" },
+            { src: "img/59.png", caption: "Panel Mozo: Pedido aceptado y en proceso" },
+            { src: "img/60.png", caption: "Panel Mozo: Pedido marcado como terminado" },
+            { src: "img/61.png", caption: "Panel Mozo: Solicitud de cuenta recibida" },
+            { src: "img/62.png", caption: "Panel Admin: Gestión de carta y control de stock" },
+            { src: "img/63.png", caption: "Dashboard Trabajadores: Visualización de ganancias" },
+            { src: "img/64.png", caption: "Login de Jefe (Acceso Administrativo)" },
+            { src: "img/65.png", caption: "Dashboard Jefe: Ganancias totales y plato favorito" }
+        ],
         "landing_servicios": [
             { src: "img/37.png", caption: "Quién soy y Servicios Técnicos" },
             { src: "img/38.png", caption: "Portafolio de Páginas y Bots" },
@@ -157,6 +172,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 <li><strong>👉 Panel de Administrador:</strong> <a href="https://pedidos-qr-demo.page.gd/admin.php" target="_blank">Ir al Panel</a> <br>Usuario: <code>admin</code> • Clave: <code>admin</code></li>
                 <li><strong>👉 Panel de Mozo:</strong> <a href="https://pedidos-qr-demo.page.gd/mozo.php" target="_blank">Ir al Panel</a> <br>Usuario: <code>mozo</code> • Clave: <code>mozo</code></li>
                 <li><strong>👉 Cocina/KDS:</strong> <a href="https://pedidos-qr-demo.page.gd/cocina.php" target="_blank">Ir al Panel</a> <br>Usuario: <code>chef</code> • Clave: <code>chef</code></li>
+            </ul>
+        `,
+        "restobar_qr_moderno": `
+            <p>Credenciales de acceso para los diferentes paneles:</p>
+            <ul>
+                <li><strong>👉 Panel de Mozo:</strong> <a href="https://restobar-app-ruby.vercel.app/mozo" target="_blank">Ir al Panel</a> <br>Clave: <code>1234</code></li>
+                <li><strong>👉 Panel de Cocina:</strong> <a href="https://restobar-app-ruby.vercel.app/cocina" target="_blank">Ir al Panel</a> <br>Clave: <code>1234</code></li>
+                <li><strong>👉 Dashboard:</strong> <a href="https://restobar-app-ruby.vercel.app/dashboard" target="_blank">Ir al Panel</a> <br>Clave: <code>1234</code></li>
+                <li><strong>👉 Panel Admin:</strong> <a href="https://restobar-app-ruby.vercel.app/admin" target="_blank">Ir al Panel</a> <br>Clave: <code>1234</code></li>
+                <li><strong>👉 Panel Jefe:</strong> <a href="https://restobar-app-ruby.vercel.app/jefe" target="_blank">Ir al Panel</a> <br>Clave: <code>9999</code></li>
             </ul>
         `
     };
